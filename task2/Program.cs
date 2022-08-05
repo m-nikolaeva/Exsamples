@@ -34,4 +34,7 @@ else if (a == 2)
 {
     Console.WriteLine("Сегодня воскресенье");
 }
-else { Console.WriteLine("Некорректный ввод"); }
+else
+{
+    Console.WriteLine("Некорректный ввод");
+}
