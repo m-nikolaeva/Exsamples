@@ -17,17 +17,17 @@ int[] CreateArrayRndInt(int size, int min, int max)
     return array;
 }
 
-double[] CreateArrayRndDouble(int size, int min, int max)
-{
-    double[] array = new double[size];
-    Random rnd = new Random();
+// double[] CreateArrayRndDouble(int size, int min, int max)
+// {
+//     double[] array = new double[size];
+//     Random rnd = new Random();
 
-    for (int i = 0; i < size; i++)
-    {
-        array[i] = rnd.NextDouble() * (max-min)+min;
-    }
-    return array;
-}
+//     for (int i = 0; i < size; i++)
+//     {
+//         array[i] = rnd.NextDouble() * (max-min)+min;
+//     }
+//     return array;
+// }
 
 
 
