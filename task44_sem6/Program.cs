@@ -6,7 +6,7 @@
 
 
 Console.WriteLine("Введите число");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 
 void GetFibonacci(int n)

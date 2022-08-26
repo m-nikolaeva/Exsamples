@@ -6,9 +6,9 @@
 
 Console.WriteLine("Введите три натуральных числа");
 
-int num1 = int.Parse(Console.ReadLine());
-int num2 = int.Parse(Console.ReadLine());
-int num3 = int.Parse(Console.ReadLine());
+int num1 = Convert.ToInt32(Console.ReadLine());
+int num2 = Convert.ToInt32(Console.ReadLine());
+int num3 = Convert.ToInt32(Console.ReadLine());
 
 bool TriangleCheck(int number1, int number2, int number3)
 {
